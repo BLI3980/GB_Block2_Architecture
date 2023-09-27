@@ -1,7 +1,5 @@
 package ru.gb.seminar01.store3D.inmemory;
 
-import ru.gb.X.store3D.inmemory.IModelChangeObserver;
-
 public class Observer2 implements IModelChangeObserver {
     @Override
     public void applyUpdateModel() {

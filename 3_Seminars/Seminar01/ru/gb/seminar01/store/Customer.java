@@ -1,7 +1,5 @@
 package ru.gb.seminar01.store;
 
-import ru.gb.X.store.User;
-
 import java.util.Date;
 
 public class Customer extends User {

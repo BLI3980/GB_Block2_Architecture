@@ -1,18 +1,16 @@
 package ru.gb.seminar01.store3D.inmemory;
 
-import ru.gb.X.store3D.inmemory.IModelChangeObserver;
-import ru.gb.X.store3D.inmemory.IModelChanger;
-import ru.gb.X.store3D.models.Camera;
-import ru.gb.X.store3D.models.Flash;
-import ru.gb.X.store3D.models.PolygonalModel;
-import ru.gb.X.store3D.models.Scene;
+import ru.gb.seminar01.store3D.models.Camera;
+import ru.gb.seminar01.store3D.models.Flash;
+import ru.gb.seminar01.store3D.models.PolygonalModel;
+import ru.gb.seminar01.store3D.models.Scene;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ModelStore implements IModelChanger {
 
-    private List<ru.gb.X.store3D.inmemory.IModelChangeObserver> observers = new ArrayList<>();
+    private List<ru.gb.seminar01.store3D.inmemory.IModelChangeObserver> observers = new ArrayList<>();
     private List<PolygonalModel> polygonals = new ArrayList<>();
     private List<Flash> flashes = new ArrayList<>();
     private List<Camera> cameras = new ArrayList<>();
@@ -42,13 +40,13 @@ public class ModelStore implements IModelChanger {
 
     @Override
     public void notifyChange() {
-        for (ru.gb.X.store3D.inmemory.IModelChangeObserver observer : observers) {
+        for (ru.gb.seminar01.store3D.inmemory.IModelChangeObserver observer : observers) {
             observer.applyUpdateModel();
         }
     }
 
     @Override
-    public void registerModelChanger(ru.gb.X.store3D.inmemory.IModelChangeObserver o) {
+    public void registerModelChanger(ru.gb.seminar01.store3D.inmemory.IModelChangeObserver o) {
         observers.add(o);
     }
 

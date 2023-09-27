@@ -1,12 +1,10 @@
 package ru.gb.seminar01.store;
 
-import ru.gb.X.store.Product;
-
 public class OrderItem {
 
     private static int counter = 5000;
     private int id;
-    private ru.gb.X.store.Product product;
+    private ru.gb.seminar01.store.Product product;
     private int quantity;
 
     // Initialization section
@@ -14,7 +12,7 @@ public class OrderItem {
         id = ++counter;
     }
 
-    public OrderItem(ru.gb.X.store.Product product) {
+    public OrderItem(ru.gb.seminar01.store.Product product) {
         this.product = product;
         quantity = 1;
     }

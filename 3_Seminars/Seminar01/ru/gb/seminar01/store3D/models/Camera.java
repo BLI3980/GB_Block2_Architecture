@@ -1,17 +1,13 @@
 package ru.gb.seminar01.store3D.models;
 
-import ru.gb.X.store3D.models.Angle3D;
-import ru.gb.X.store3D.models.IModel;
-import ru.gb.X.store3D.models.Point3D;
-
 public class Camera implements IModel {
-    private ru.gb.X.store3D.models.Point3D location;
-    private ru.gb.X.store3D.models.Angle3D angle;
+    private ru.gb.seminar01.store3D.models.Point3D location;
+    private ru.gb.seminar01.store3D.models.Angle3D angle;
 
     public Camera() {
     }
 
-    public Camera(ru.gb.X.store3D.models.Point3D location, ru.gb.X.store3D.models.Angle3D angle) {
+    public Camera(ru.gb.seminar01.store3D.models.Point3D location, ru.gb.seminar01.store3D.models.Angle3D angle) {
         this.location = location;
         this.angle = angle;
     }

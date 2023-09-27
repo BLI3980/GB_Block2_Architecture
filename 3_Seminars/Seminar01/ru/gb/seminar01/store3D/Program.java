@@ -1,9 +1,9 @@
 package ru.gb.seminar01.store3D;
 
-import ru.gb.X.store3D.inmemory.ModelStore;
-import ru.gb.X.store3D.inmemory.Observer1;
-import ru.gb.X.store3D.inmemory.Observer2;
-import ru.gb.X.store3D.models.PolygonalModel;
+import ru.gb.seminar01.store3D.inmemory.ModelStore;
+import ru.gb.seminar01.store3D.inmemory.Observer1;
+import ru.gb.seminar01.store3D.inmemory.Observer2;
+import ru.gb.seminar01.store3D.models.PolygonalModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,17 +18,17 @@ public class Program {
         store.registerModelChanger(observer1);
         store.registerModelChanger(observer2);
 
-        ru.gb.X.store3D.models.Polygon polygon = new ru.gb.X.store3D.models.Polygon();
-        List<ru.gb.X.store3D.models.Polygon> polygons = new ArrayList<>();
+        ru.gb.seminar01.store3D.models.Polygon polygon = new ru.gb.seminar01.store3D.models.Polygon();
+        List<ru.gb.seminar01.store3D.models.Polygon> polygons = new ArrayList<>();
         polygons.add(polygon);
 
-        ru.gb.X.store3D.models.PolygonalModel polygonalModel = new PolygonalModel(polygons);
+        ru.gb.seminar01.store3D.models.PolygonalModel polygonalModel = new PolygonalModel(polygons);
         store.add(polygonalModel);
-        ru.gb.X.store3D.models.Flash flash = new ru.gb.X.store3D.models.Flash();
+        ru.gb.seminar01.store3D.models.Flash flash = new ru.gb.seminar01.store3D.models.Flash();
         store.add(flash);
-        ru.gb.X.store3D.models.Camera camera = new ru.gb.X.store3D.models.Camera();
+        ru.gb.seminar01.store3D.models.Camera camera = new ru.gb.seminar01.store3D.models.Camera();
         store.add(camera);
-        ru.gb.X.store3D.models.Scene scene = new ru.gb.X.store3D.models.Scene();
+        ru.gb.seminar01.store3D.models.Scene scene = new ru.gb.seminar01.store3D.models.Scene();
         store.add(scene);
 
     }

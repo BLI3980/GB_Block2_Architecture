@@ -1,26 +1,22 @@
 package ru.gb.seminar01.store3D.models;
 
-import ru.gb.X.store3D.models.Angle3D;
-import ru.gb.X.store3D.models.IModel;
-import ru.gb.X.store3D.models.Point3D;
-
 import java.awt.*;
 
 public class Flash implements IModel {
-    private ru.gb.X.store3D.models.Point3D location;
-    private ru.gb.X.store3D.models.Angle3D angle;
+    private ru.gb.seminar01.store3D.models.Point3D location;
+    private ru.gb.seminar01.store3D.models.Angle3D angle;
     private Color color;
     private float power;
 
     public Flash() {
     }
 
-    public Flash(ru.gb.X.store3D.models.Point3D location, ru.gb.X.store3D.models.Angle3D angle) {
+    public Flash(ru.gb.seminar01.store3D.models.Point3D location, ru.gb.seminar01.store3D.models.Angle3D angle) {
         this.location = location;
         this.angle = angle;
     }
 
-    public Flash(ru.gb.X.store3D.models.Point3D location, ru.gb.X.store3D.models.Angle3D angle, Color color, float power) {
+    public Flash(ru.gb.seminar01.store3D.models.Point3D location, ru.gb.seminar01.store3D.models.Angle3D angle, Color color, float power) {
         this.location = location;
         this.angle = angle;
         this.color = color;

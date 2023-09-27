@@ -1,12 +1,10 @@
 package ru.gb.seminar01.store;
 
-import ru.gb.X.store.Order;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
-    private List<ru.gb.X.store.Order> orders = new ArrayList<>();
+    private List<ru.gb.seminar01.store.Order> orders = new ArrayList<>();
 
     public boolean addOrder(Order order) {
         orders.add(order);
