@@ -1,4 +1,4 @@
-package ru.gb.seminar01.store;
+package ru.gb.X.store;
 
 public class OrderItem {
 

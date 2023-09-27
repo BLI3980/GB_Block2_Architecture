@@ -1,8 +1,7 @@
-package ru.gb.seminar01.store;
+package ru.gb.X.store;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Order {
@@ -11,8 +10,8 @@ public class Order {
     private LocalDateTime orderDate;
     private String address;
     private String phone;
-    private Customer customer;
-    private List<OrderItem> items = new ArrayList<>();
+    private ru.gb.X.store.Customer customer;
+    private List<ru.gb.X.store.OrderItem> items = new ArrayList<>();
 
     {
         id = ++counter;

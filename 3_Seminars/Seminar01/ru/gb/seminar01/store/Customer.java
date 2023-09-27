@@ -1,8 +1,10 @@
 package ru.gb.seminar01.store;
 
+import ru.gb.X.store.User;
+
 import java.util.Date;
 
-public class Customer extends User{
+public class Customer extends User {
     private String lastName;
     private String firstName;
     private String patronymic;

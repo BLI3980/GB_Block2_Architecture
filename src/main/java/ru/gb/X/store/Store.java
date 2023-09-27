@@ -1,4 +1,4 @@
-package ru.gb.seminar01.store;
+package ru.gb.X.store;
 
 import java.util.ArrayList;
 import java.util.List;
