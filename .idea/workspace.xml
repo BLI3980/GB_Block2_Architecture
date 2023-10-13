@@ -5,52 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6404e7-8df0-4640-9166-2c566f7b6fa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/IModelChangeObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/IModelChanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/ModelStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/Observer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/Observer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Angle3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Flash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/IModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/PolygonalModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/inmemory/IModelChangeObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/inmemory/IModelChanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/inmemory/ModelStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/inmemory/Observer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/inmemory/Observer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Angle3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Flash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/IModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/PolygonalModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/X/store3D/models/Texture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/BaseLogReaderCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/ConcreteReaderCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/DatabaseReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/LogEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/LogReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/OperationSystemLogEventReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/PoemReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/factoryMethod/TextFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/templateMethod/LogEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/templateMethod/LogReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/templateMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar02/ru/gb/seminar02/templateMethod/PoemReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store3D/models/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Point3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store3D/models/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store3D/models/PolygonalModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar01/store3D/models/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/IModelChangeObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/IModelChangeObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/IModelChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/IModelChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/ModelStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/Observer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/Observer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/Observer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/inmemory/Observer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Angle3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Angle3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Flash.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Flash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/IModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Point3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/PolygonalModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/PolygonalModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar01/ru/gb/seminar01/store3D/models/Texture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,19 +74,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/11a_Architecture/3_Seminars"
+    "last_opened_file_path": "C:/_GB/OOP_Patterns"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_GB\11a_Architecture\3_Seminars\Seminar02\ru\gb\seminar02\factoryMethod" />
       <recent name="C:\_GB\11a_Architecture\3_Seminars" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.gb.seminar01.store" />
       <recent name="ru.gb.seminar01" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.seminar02.factoryMethod" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ru.gb.homework02.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar02.templateMethod.Main" />
+      <module name="11a_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.seminar02.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.seminar01.store3D.Program" />
       <module name="11a_Architecture" />
@@ -108,8 +117,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.homework02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework02.Main" />
+      <module name="11a_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb.seminar02.factoryMethod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar02.factoryMethod.Main" />
+      <module name="11a_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.seminar02.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.homework02.Main" />
+        <item itemvalue="Application.ru.gb.seminar02.factoryMethod.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
