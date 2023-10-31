@@ -1,10 +1,13 @@
-package ru.gb.seminar03.car.cars;
+package ru.gb.homework03.car.cars;
 
-import ru.gb.seminar03.car.config.CarType;
+import ru.gb.homework03.car.config.CarType;
+import ru.gb.homework03.car.wash.CarWashStation;
+import ru.gb.homework03.car.wash.ICarWashStation;
 
 import java.awt.*;
 
-public class SportCar extends Car {
+public class SportCar extends Car implements ICarWashStation {
+    private CarWashStation carWashStation;
     public SportCar(String brand, String model, Color color) {
         super(brand, model, color);
         setWheelCount(3);
@@ -36,4 +39,12 @@ public class SportCar extends Car {
         return false;
     }
 
+    public void setCarWashStation(CarWashStation carWashStation) {
+        this.carWashStation = carWashStation;
+        carWashStation.setCarType(getType());
+    }
+    @Override
+    public void carWash() {
+        carWashStation.carWash();
+    }
 }

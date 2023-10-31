@@ -1,16 +1,19 @@
-package ru.gb.seminar03.car.cars;
+package ru.gb.homework03.car.cars;
 
-import ru.gb.seminar03.car.config.CarType;
-import ru.gb.seminar03.car.config.FuelType;
-import ru.gb.seminar03.car.wash.IWipeService;
-import ru.gb.seminar03.car.fuel.IFuelStation;
-import ru.gb.seminar03.car.fuel.IRefillWithFuel;
+import ru.gb.homework03.car.config.CarType;
+import ru.gb.homework03.car.config.FuelType;
+import ru.gb.homework03.car.fuel.IFuelStation;
+import ru.gb.homework03.car.fuel.IRefillWithFuel;
+import ru.gb.homework03.car.wash.CarWashStation;
+import ru.gb.homework03.car.wash.ICarWashStation;
+import ru.gb.homework03.car.wash.IWipeService;
 
 import java.awt.*;
 
-public class Harvester extends Car implements IRefillWithFuel, IWipeService {
+public class Harvester extends Car implements IRefillWithFuel, IWipeService, ICarWashStation {
 
     private IFuelStation fuelStation;
+    private CarWashStation carWashStation;
 
     public Harvester(String brand, String model, Color color) {
         super(brand, model, color);
@@ -27,6 +30,19 @@ public class Harvester extends Car implements IRefillWithFuel, IWipeService {
     @Override
     public void refuel() {
         if (fuelStation != null) fuelStation.refuel(fuelType);
+    }
+    // endregion
+    // region Wash
+    public void setCarWashStation(CarWashStation carWashStation) {
+        this.carWashStation = carWashStation;
+        carWashStation.setCarType(getType());
+    }
+
+    @Override
+    public void carWash() {
+        if (carWashStation != null) {
+            carWashStation.carWash();
+        }
     }
     // endregion
 

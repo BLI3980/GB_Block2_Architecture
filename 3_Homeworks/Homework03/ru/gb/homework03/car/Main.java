@@ -1,8 +1,11 @@
-package ru.gb.seminar03.car;
+package ru.gb.homework03.car;
 
-import ru.gb.seminar03.car.cars.Car;
-import ru.gb.seminar03.car.cars.Harvester;
-import ru.gb.seminar03.car.fuel.DieselStation;
+import ru.gb.homework03.car.cars.Car;
+import ru.gb.homework03.car.cars.Harvester;
+import ru.gb.homework03.car.cars.SportCar;
+import ru.gb.homework03.car.fuel.DieselStation;
+import ru.gb.homework03.car.wash.ContactlessCarWash;
+import ru.gb.homework03.car.wash.SpecialtyCarWashStation;
 
 import java.awt.*;
 
@@ -56,6 +59,17 @@ public class Main {
         DieselStation dieselStation = new DieselStation();
         harvester.setFuelStation(dieselStation);
         harvester.refuel();
+        ContactlessCarWash contactlessCarWash = new ContactlessCarWash();
+        harvester.setCarWashStation(contactlessCarWash);
+        harvester.carWash();
+        SpecialtyCarWashStation specialtyCarWashStation = new SpecialtyCarWashStation();
+        harvester.setCarWashStation(specialtyCarWashStation);
+        harvester.carWash();
+        SportCar sportCar = new SportCar("Super Car", "Super Model", Color.BLACK);
+        sportCar.setCarWashStation(specialtyCarWashStation);
+        sportCar.carWash();
+        sportCar.setCarWashStation(contactlessCarWash);
+        sportCar.carWash();
     }
 
     public static double calculateMaintenance(Car car) {

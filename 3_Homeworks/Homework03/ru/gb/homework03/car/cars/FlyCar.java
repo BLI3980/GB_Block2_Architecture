@@ -1,19 +1,21 @@
-package ru.gb.seminar03.car.cars;
-
-import ru.gb.seminar03.car.config.CarType;
+package ru.gb.homework03.car.cars;
 
 import java.awt.*;
 
-public class SportCar extends Car {
-    public SportCar(String brand, String model, Color color) {
+public class FlyCar extends Car {
+
+    public FlyCar(String brand, String model, Color color) {
         super(brand, model, color);
-        setWheelCount(3);
-        setType(CarType.Sport);
+        setWheelCount(4);
+    }
+
+    public void fly() {
+        System.out.println("Car flies.");
     }
 
     @Override
     public void movement() {
-
+        fly();
     }
 
     @Override
@@ -35,5 +37,4 @@ public class SportCar extends Car {
     public boolean switchWipers() {
         return false;
     }
-
 }
