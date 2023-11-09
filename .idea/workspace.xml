@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6404e7-8df0-4640-9166-2c566f7b6fa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/cars/FlyCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/cars/Harvester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/cars/SportCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/config/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/config/FuelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/config/GearboxType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/fuel/DieselStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/fuel/GasolineStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/fuel/IFuelStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/fuel/IRefillWithFuel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/wash/CarWashStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/wash/IWipeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/wash/SpecialtyCarWashStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Seminars/Seminar04/ru/gb/seminar03/task01/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/cars/Harvester.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/cars/Harvester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/cars/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/cars/SportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/wash/ContactlessCarWash.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/wash/ContactlessCarWash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/wash/ICarWashStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_Homeworks/Homework03/ru/gb/homework03/car/wash/ICarWashStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Seminars/Seminar03/ru/gb/seminar03/car/wash/SpecialtyCarWashStation.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/_GB/11a_Architecture/3_Homeworks/Homework03"
+    "last_opened_file_path": "C:/_GB/11a_Architecture"
   }
 }]]></component>
   <component name="RecentsManager">
