@@ -1,6 +1,4 @@
-package ru.gb.seminar03.task02after;
-
-import ru.gb.seminar03.car.fuel.IFuelStation;
+package ru.gb.seminar04.task02after;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package ru.gb.seminar03.task03;
+package ru.gb.seminar04.task03;
 
 /**
  * Bus station

@@ -1,4 +1,4 @@
-package ru.gb.seminar03.task01;
+package ru.gb.seminar04.task01;
 
 import java.io.File;
 import java.util.Collection;

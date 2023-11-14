@@ -1,0 +1,250 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": false,
+    "hideInterfaceCalls": false, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "ru.gb.seminar04.task03.Main",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_3291 { 
+   	label=gb
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_750988446 { 
+   	label=seminar04
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   BusStation1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)BusStation</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   ticketProvider: TicketProvider [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ checkTicket(qrCode: String): boolean</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Customer1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Customer</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   id: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   tickets: Collection&lt;Ticket&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+CustomerProvider1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)CustomerProvider</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   database: Database [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ getCustomer(login: String, password: String): Customer</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Database1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Database</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   customers: Collection&lt;Customer&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   tickets: Collection&lt;Ticket&gt; [0..*]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ createTicketOrder(clientId: int): int</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Main1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Main</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ main(args: String[])</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+MobileApp1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)MobileApp</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   customer: Customer [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   customerProvider: CustomerProvider [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   ticketProvider: TicketProvider [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ buyTicket(cardNo: String): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >+ searchTicket(date: Date)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+PaymentProvider1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)PaymentProvider</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ buyTicket(orderId: int, cardNo: String, price: double): boolean</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Ticket1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Ticket</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   customerId: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   date: Date [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   id: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   isValid: boolean [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   qrCode: String [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+TicketProvider1121608233[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)TicketProvider</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   database: Database [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   paymentProvider: PaymentProvider [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ buyTicket(clientId: int, cardNo: String): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >+ checkTicket(qrcode: String): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >+ searchTicket(clientId: int, date: Date): Collection&lt;Ticket&gt;</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+'edges    
+BusStation1121608233 -> TicketProvider1121608233[label="ticketProvider
+[0..1]"];
+Customer1121608233 -> Ticket1121608233[label="tickets
+[0..*]"];
+CustomerProvider1121608233 -> Database1121608233[label="database
+[0..1]"];
+Main1121608233 -> BusStation1121608233[label="main() -> checkTicket()"];
+MobileApp1121608233 -> Customer1121608233[label="customer
+[0..1]"];
+MobileApp1121608233 -> CustomerProvider1121608233[label="customerProvider
+[0..1]"];
+MobileApp1121608233 -> TicketProvider1121608233[label="ticketProvider
+[0..1]"];
+TicketProvider1121608233 -> Database1121608233[label="database
+[0..1]"];
+TicketProvider1121608233 -> PaymentProvider1121608233[label="paymentProvider
+[0..1]"];
+    
+}
+@enduml

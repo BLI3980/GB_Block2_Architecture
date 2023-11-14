@@ -1,4 +1,4 @@
-package ru.gb.seminar03.task02before;
+package ru.gb.seminar04.task02after;
 
 /**
  * Information about car parts
